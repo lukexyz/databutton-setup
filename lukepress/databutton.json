@@ -1,0 +1,11 @@
+{
+  "uid": "7fc5b004-a1f1-4cdf-9103-ecc3f6608dbf",
+  "name": "lukepress",
+  "exclude": [
+    "venv",
+    ".venv",
+    "__pycache__",
+    ".databutton",
+    ".git"
+  ]
+}

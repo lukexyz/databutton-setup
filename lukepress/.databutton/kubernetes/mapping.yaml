@@ -1,0 +1,10 @@
+apiVersion: getambassador.io/v3alpha1
+kind: Mapping
+metadata:
+  name: databutton
+spec:
+  allow_upgrade:
+  - websocket
+  hostname: p7fc5b004-a1f1-4cdf-9103-ecc3f6608dbf.dbtn.app
+  prefix: /
+  service: databutton

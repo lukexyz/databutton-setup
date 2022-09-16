@@ -1,0 +1,25 @@
+{
+  "streamlit_apps": [
+    {
+      "filename": ".databutton/app/tmp-39996ca4-efd8-105e-0588-403d1d7d68cb.py",
+      "uid": "39996ca4-efd8-105e-0588-403d1d7d68cb",
+      "name": "Hello Databutton",
+      "route": "/hello/",
+      "memory": "256Mi",
+      "cpu": "0.2",
+      "port": 8501
+    }
+  ],
+  "schedules": [
+    {
+      "uid": "main.py-repeating_job-repeating_job",
+      "name": "repeating_job",
+      "func_name": "repeating_job",
+      "seconds": 600,
+      "filepath": "main.py",
+      "module_name": "main",
+      "cancel_on_failure": false,
+      "run_immediately": true
+    }
+  ]
+}
